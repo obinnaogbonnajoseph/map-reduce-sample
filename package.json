@@ -1,0 +1,16 @@
+{
+  "name": "map-reduce-sample",
+  "version": "1.0.0",
+  "description": "Simple project to demonstrate map-reduce system design process",
+  "main": "map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mapReduce",
+    "system",
+    "design"
+  ],
+  "author": "Obinna Ogbonna <obinnaogbonnajoseph@gmail.com> (https://github.com/obinnaogbonnajoseph)",
+  "license": "MIT"
+}
