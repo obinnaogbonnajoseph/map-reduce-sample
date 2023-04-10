@@ -14,4 +14,4 @@ function generateLatencies() {
 	});
 };
 
-module.exports.generateLatencies = generateLatencies;
+module.exports = generateLatencies;

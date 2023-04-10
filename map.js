@@ -1,5 +1,5 @@
 const mapReduce = require('./map_reduce');
-const latencies = require('./generate_latencies');
+const generateLatencies = require('./generate_latencies');
 
 function map(text) {
 	const lines = text.split('\n');
@@ -13,6 +13,6 @@ function map(text) {
 	}
 }
 
-latencies.generateLatencies();
+generateLatencies();
 const mapInput = mapReduce.getMapInput('latencies.txt');
 map(mapInput);
